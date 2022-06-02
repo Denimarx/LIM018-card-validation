@@ -1,0 +1,138 @@
+
+body { /*//*/
+  background-image: url("./images/yellow-food.jpg");
+}
+
+* { /*//*/
+  box-sizing: border-box;
+  margin: 5px;
+  padding: 4px;
+}
+
+h1 { /*//*/
+  margin: 0;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px 0;
+  color: #470de7: /*titulo*/
+  text-shadow: 2px 2px 1 px black; /*sombra*/
+  font-family: 'Barlow', cursive;
+}
+
+.boton-otra-tj { 
+  font-family: 'Barlow', cursive;
+  width:150px;
+  padding: 8px;
+  background: #f5dd0c;
+  border: 2px solid #0F0A0A;
+  box-shadow: -4px 4px 14px rgba(236, 228, 228, 0.6);
+  border-radius: 90px;
+  font-size: 18px;
+  cursor: pointer;
+  border: 1px dashed #ccf;
+}
+.boton-otra-tj:hover{
+  background: #f8b863;
+}
+
+.boton-validar { 
+  font-family: 'Barlow', cursive;
+  width:150px;
+  padding: 8px;
+  background: #f5dd0c;
+  box-shadow: -4px 4px 14px rgba(236, 228, 228, 0.6);
+  border-radius: 90px;
+  cursor: pointer;
+  border: 1px dashed #ccf;
+  font-size: 18px;
+  
+}
+.boton-validar:hover{
+  background: #f8b863;
+}
+
+.contenido1 { 
+  margin-top: 30px;
+}
+
+.ingresa { 
+  color: rgb(238, 12, 12);
+  text-align:center;
+  font-family:"Comic Sans MS";
+}
+
+
+.name-input {
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid rgb(172, 223, 55);
+  color: rgb(126, 126, 126);
+  width: 100%;
+  outline: none;
+}
+.number-input {
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid rgb(172, 223, 55);
+  color: rgb(126, 126, 126);
+  width: 100%;
+  outline: none;
+}
+
+.mes-input {
+  width:180px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid rgb(172, 223, 55);
+  color: rgb(126, 126, 126);
+  width: 30%;
+  outline: none;
+}
+.year-input {
+  width:180px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid rgb(172, 223, 55);
+  color: rgb(126, 126, 126);
+  width: 30%;
+  outline: none;
+}
+.cvv-input {
+  width:80px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid rgb(172, 223, 55);
+  color: rgb(126, 126, 126);
+  width: 30%;
+  outline: none;
+}
+
+.contenido {
+  background-color: rgb(241, 234, 231);
+  border-radius: 100px;
+  max-width: 600px;
+  width: 900px;
+  margin: auto;
+  padding: 50px;
+  
+}
+
+p {
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 0;
+  color: #00539F: /*titulo*/
+  text-shadow: 2px 2px 1 px black; /*sombra*/
+  font-family: 'Barlow', cursive;
+}
+
+h3 {
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 0;
+  color: #c50b14: /*titulo*/
+  text-shadow: 2px 2px 1px ; /*sombra*/
+  font-family: 'Barlow', cursive;
+}
