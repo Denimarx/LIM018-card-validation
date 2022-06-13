@@ -45,9 +45,10 @@ Agregar un resumen del feedback recibido indicando las mejoras a realizar.
 
 Prototipo 1:
 
+url("./images/prototipo-final.jpg")
 
 Prototipo 2:
-<img src="/images/prototipo-final.jpg" alt="prototipofinal"/>
+<img src="./images/prototipo-final.jpg" alt="prototipofinal"/>
 
 
 
