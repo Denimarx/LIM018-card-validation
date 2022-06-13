@@ -1,42 +1,49 @@
 import validator from './validator.js';
 
-console.log(validator.isValid());
-
-  /*
-1. traer la funcion de validator
-2. si es true lanzar retur SU TARJETA ES VALIDA
---sino es INVALIDA
-3.boton validar
-4.boton limpiar o probar otra tarjeta
-*/
-/*
-function isValid() {
-  const isValid = validator.isValid("cardnumber");
-const cardnumber = document.getElementById("cardnumber");
-const btnvalidate = document.getElementById('btnvalidate');
-let message = '';
-
-if (validator.isValid(carsnumber.value) === true)
-message = "tarjeta valida";
+  const cardnumber = document.getElementById('cardnumber');
+  const btninput = document.getElementById("btn-validate");
+  const respuesta = document.getElementById("parrafo");
   
-else
-message = "tarjeta invalida";
-} 
-*/
+ 
+  /*cardnumber.addEventListener('keyup', () => {
+    let newcardnumber = validator.maskify(cardnumber);
+    cardnumber.value = newcardnumber;
+    console.log (cardnumber)
+  }),*/
+  
+   btninput.addEventListener("click",() => {
+    const isValid2= validator.isValid(cardnumber.value);
+      console.log(isValid2)
+      if (isValid2 === true) {
+       respuesta.innerHTML = "Tu tarjeta es Válida";
+    } else {
+      respuesta.innerHTML = "Tu tarjeta es Inválida ";
+    }
+    })
 
 
-const isValid = validator.isValid('cardnumber');
+/*
+cardnumber.addEventListener('keyup', () => {
+  let  numvalidado= validator.isValid(cardnumber.value);
+  let newcardnumber = validator.maskify(numvalidado)
+  cardnumber.value = newcardnumber
+  console.log (cardnumber)
+})
 
-const cardnumberinput = document.getElementById('cardnumber');
-const botonvalidate = document.getElementById('btnvalidate');
-let message = '';
-
-btn.validate.addEventListener ("click",(e)) ; {e.preventDefault();
-  if (isValid === true) {
-    message = "Tarjeta Válida"
+ btninput.addEventListener("click",() => {
+  const isValid2= validator.isValid(cardnumber.value);
+    console.log(isValid2)
+    if (isValid2 === true) {
+     respuesta.innerHTML = "Tu tarjeta es Válida";
   } else {
-    message = "Tarjeta Inválida"
+    respuesta.innerHTML = "Tu tarjeta es Inválida ";
   }
-}
+  })
 
-$formName.addEventListener("submit", handleSubmitName);
+
+  btnagain.addEventListener("click",() => {
+    document.getElementById("inputall").value = ('')
+  })
+*/
+  
+/*<button type="submit" id="btn-again" class="boton-otra-tj"  >Limpiar</button>*/

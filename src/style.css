@@ -1,7 +1,18 @@
 
 body { /*//*/
   background-image: url("./images/yellow-food.jpg");
+  
 }
+img {
+  width: 170px;
+  height: auto;
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
+
 
 * { /*//*/
   box-sizing: border-box;
@@ -30,6 +41,7 @@ h1 { /*//*/
   font-size: 18px;
   cursor: pointer;
   border: 1px dashed #ccf;
+  
 }
 .boton-otra-tj:hover{
   background: #f8b863;
@@ -135,4 +147,7 @@ h3 {
   color: #c50b14: /*titulo*/
   text-shadow: 2px 2px 1px ; /*sombra*/
   font-family: 'Barlow', cursive;
+}
+.botones {
+  align-items: center;
 }

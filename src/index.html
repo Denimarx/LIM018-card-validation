@@ -7,22 +7,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
- 
-    
-    <main>
+   <main>
        <section class="contenido">
-          <h1>VALIDACIÓN DE TARJETA</h1>
           <h3>¡Valida tu tarjeta y pide lo que quieras!</h3>
-          
-        
+          <h1>VALIDACIÓN DE TARJETA</h1>
   
           <section class="ingreso-datos">
 
-            <form class="form-card">
+            <form class="form-card" id="inputall">
 
               <div class="inputcard">
                 <input type="text" id="cardname" class="name-input" name="user" placeholder="Nombre del titular" required>
-                <input type="text" id="cardnumber" class="number-input" name="user" placeholder="Numero de Tarjeta" maxlength="16" required>
+                <input type="text" id="cardnumber" class="number-input" name="user" placeholder="Numero de Tarjeta" maxlength="16"  required>
               </div>
 
               <div class="inputbox">
@@ -56,18 +52,18 @@
               </div>
 
             </form>
-
+            <section>
+              <div class="botones">
+                <button type="submit" id="btn-validate" class="boton-validar" >Validar</button>
+              </div> 
+            </section>
+            <div id = "result">
+              <p id="parrafo"> </p>
+            </div>
           </section>
-        </sectio>
-        <section>
-          <div class="botones">
-            <button type="submit" id="btn-validate" class="boton-validar" onclick="validarcardnumber">Validar</button>
-           <button type="button" id="btn-again" class="boton-otra-tj" onclick="limpiar" >Limpiar</button>
-          </div> 
-        </section>
-
-      </section>
+       </section>
        
+
     </main>
 
     <footer class="hecho-por">
