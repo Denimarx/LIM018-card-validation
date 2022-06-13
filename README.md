@@ -45,7 +45,7 @@ Agregar un resumen del feedback recibido indicando las mejoras a realizar.
 
 Prototipo 1:
 
-url("./images/prototipo-final.jpg")
+
 
 Prototipo 2:
 ![PROTOTIPO FINAL](https://github.com/Denimarx/LIM018-card-validation/blob/main/src/images/prototipo-final.jpeg?raw=true)
