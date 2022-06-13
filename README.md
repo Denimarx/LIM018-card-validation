@@ -34,20 +34,23 @@ si la tarjeta ingresada es válida o inválida, de esa manera el usuario podra t
 
 ### Interfaz de usuario (UI)
 
-La interfaz debe permitir al usuario:
+La interfaz permite al usuario:
 
 * Insertar el número que queremos validar.
 * Ver el resultado si es válido o no.
 
 
 ### UX (Diseño de experiencia de usuario)
-Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+Al ser un aplicativo web para validar tarjeta y poder realizar compras de fast food se buscó un fondo relacionado al tema de comida rápida.
+Se realizó una presentación  a las compañeras y coaches para recibir retroalimentacion, las princiaples recomendaciones fueron mejorar la visibilidad de las letras  de la página.  
 
 Prototipo 1:
 
+![PROTOTIPO Inicial](https://github.com/Denimarx/LIM018-card-validation/blob/main/src/images/prototipo-inicial.jpeg?raw=true)
 
 
 Prototipo 2:
+
 ![PROTOTIPO FINAL](https://github.com/Denimarx/LIM018-card-validation/blob/main/src/images/prototipo-final.jpeg?raw=true)
 
 
