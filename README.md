@@ -48,7 +48,7 @@ Prototipo 1:
 url("./images/prototipo-final.jpg")
 
 Prototipo 2:
-<img src="./images/prototipo-final.jpg" alt="prototipofinal"/>
+![PROTOTIPO FINAL](https://github.com/Denimarx/LIM018-card-validation/blob/main/src/images/prototipo-final.jpeg?raw=true)
 
 
 
