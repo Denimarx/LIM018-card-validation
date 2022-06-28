@@ -66,10 +66,6 @@ h3 {
 }
 
 
-  
-
-
-
 .boton-validar { 
   font-family: 'Barlow', cursive;
   align-items: center;
@@ -84,7 +80,26 @@ h3 {
   font-size: 18px;
   
 }
+
 .boton-validar:hover{
+  background: #f8b863;
+  align-items: center;
+}
+.limpiar { 
+  font-family: 'Barlow', cursive;
+  align-items: center;
+  text-align: center;
+  width:150px;
+  padding: 8px;
+  background: #f5dd0c;
+  /*box-shadow: -4px 4px 14px rgba(204, 45, 45, 0.6);*/
+  border-radius: 90px;
+  cursor: pointer;
+  border: 1px dashed rgb(224, 224, 235);
+  font-size: 18px;
+  
+}
+.limpiar:hover{
   background: #f8b863;
   align-items: center;
 }
