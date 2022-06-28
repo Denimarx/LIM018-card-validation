@@ -53,6 +53,115 @@ Prototipo 2:
 
 ![PROTOTIPO FINAL](https://github.com/Denimarx/LIM018-card-validation/blob/main/src/images/prototipo-final.jpeg?raw=true)
 
+3. Objetivos de aprendizaje
+Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
 
+HTML
+ 
+HTML semántico(https://curriculum.laboratoria.la/es/topics/html/02-html5/02-semantic-html)
+Semantics - MDN Web Docs Glossary (https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
+
+
+CSS
+ 
+Uso de selectores de CSS
+Intro a CSS(https://curriculum.laboratoria.la/es/topics/css/01-css/01-intro-css)
+CSS Selectors - MDN(https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors)
+ 
+
+Modelo de caja (box model): borde, margen, padding
+
+Box Model & Display(https://curriculum.laboratoria.la/es/topics/css/01-css/02-boxmodel-and-display)
+The box model - MDN(https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
+Introduction to the CSS box model - MDN(https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
+CSS display - MDN(https://developer.mozilla.org/pt-BR/docs/Web/CSS/display)
+display - CSS Tricks(https://css-tricks.com/almanac/properties/d/display/)
+
+
+Web APIs
+ Uso de selectores del DOM
+
+Links
+Manipulación del DOM
+Introducción al DOM - MDN
+Localizando elementos DOM usando selectores - MDN
+ Manejo de eventos del DOM (listeners, propagación, delegación)
+
+Links
+Introducción a eventos - MDN
+EventTarget.addEventListener() - MDN
+EventTarget.removeEventListener() - MDN
+El objeto Event
+ Manipulación dinámica del DOM
+
+Links
+Introducción al DOM
+Node.appendChild() - MDN
+Document.createElement() - MDN
+Document.createTextNode()
+Element.innerHTML - MDN
+Node.textContent - MDN
+JavaScript
+ Tipos de datos primitivos
+
+Links
+Valores primitivos - MDN
+ Strings (cadenas de caracteres)
+
+Links
+Strings
+String — Cadena de caracteres - MDN
+ Variables (declaración, asignación, ámbito)
+
+Links
+Valores, tipos de datos y operadores
+Variables
+ Uso de condicionales (if-else, switch, operador ternario, lógica booleana)
+
+Links
+Estructuras condicionales y repetitivas
+Tomando decisiones en tu código — condicionales - MDN
+ Uso de bucles/ciclos (while, for, for..of)
+
+Links
+Bucles (Loops)
+Bucles e iteración - MDN
+ Funciones (params, args, return)
+
+Links
+Funciones (control de flujo)
+Funciones clásicas
+Arrow Functions
+Funciones — bloques de código reutilizables - MDN
+ Pruebas unitarias (unit tests)
+
+Links
+Empezando con Jest - Documentación oficial
+ Módulos de ECMAScript (ES Modules)
+
+Links
+import - MDN
+export - MDN
+ Uso de linter (ESLINT)
+
+ Uso de identificadores descriptivos (Nomenclatura y Semántica)
+
+Control de Versiones (Git y GitHub)
+ Git: Instalación y configuración
+
+ Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote)
+
+ GitHub: Creación de cuenta y repos, configuración de llaves SSH
+
+ GitHub: Despliegue con GitHub Pages
+
+Links
+Sitio oficial de GitHub Pages
+user-centricity
+ Diseñar un producto o servicio poniendo a la usuaria en el centro
+product-design
+ Crear prototipos de alta fidelidad que incluyan interacciones
+
+ Seguir los principios básicos de diseño visual
 
 
